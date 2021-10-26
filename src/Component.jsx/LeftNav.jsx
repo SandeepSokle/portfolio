@@ -13,7 +13,7 @@ export const LeftNav = () => {
         <img src={Image} class="img-fluid" alt="Profile" />
       </div>
       <div className="profileName mb-2">
-        <h3>Sandeep Sokle</h3>
+        <h2>Sandeep Sokle</h2>
       </div>
       <div className="socialLinkes mb-4">
         <div className="mediaLink">

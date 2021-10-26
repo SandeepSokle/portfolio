@@ -1,18 +1,23 @@
 
 
 .headerContainer{
-    height: 100vh;
+    height: 120vh;
     position: relative;
 
     .head,.description{
         position: absolute;
-        left: 15vw;
+        left: 13vw;
     }
 
     .head{
         top: 45vh;
     }
     .description{
-        top: 53vh;
+        top: 53.6vh;
+        width: 32vw;
+        font-size: 20px;
+        font-weight:450;
+        padding: 1vw;
+        background:rgba(255, 255, 255, 0.097)
     }
 }
