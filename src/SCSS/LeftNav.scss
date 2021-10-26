@@ -1,0 +1,59 @@
+.leftinnerContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .profileImg {
+    img {
+      height: 15rem;
+      width: 15rem;
+      border-radius: 50%;
+    }
+  }
+
+  .socialLinkes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .mediaLink {
+      margin-right: 1rem;
+      cursor: pointer;
+
+      img {
+        // border: 2px solid black;
+        height: 2.3rem;
+        width: 2.3rem;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .navList {
+    width: 100%;
+    .navTab {
+      list-style: none;
+      padding: 4px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .navTab:hover {
+      background-color: antiquewhite;
+    }
+  }
+  .copyRightContant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    span {
+      font-size: 3rem;
+    }
+  }
+}

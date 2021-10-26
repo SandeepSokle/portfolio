@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { LeftNav } from "./Component.jsx/LeftNav";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import "./SCSS/App.scss";
+import { Home } from "./Component.jsx/Home";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="appContainer row">
+          <div className="col-3 bg-secondary leftNavContainer">
+            <LeftNav />
+          </div>
+          <div className="col-9">
+                 <Home/>      
+          </div>
+      </div>
     </div>
   );
 }
