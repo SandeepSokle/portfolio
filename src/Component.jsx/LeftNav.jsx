@@ -1,4 +1,4 @@
-import Image from "../Image/LeftNav/profileImg.jpg";
+import Image from "../Image/LeftNav/profileImg2.jpg";
 import blog from "../Image/LeftNav/blogger.png";
 import google from "../Image/LeftNav/google.png";
 import leetcode from "../Image/LeftNav/leetcode.png";

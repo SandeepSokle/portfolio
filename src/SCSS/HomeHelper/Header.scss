@@ -1,0 +1,18 @@
+
+
+.headerContainer{
+    height: 100vh;
+    position: relative;
+
+    .head,.description{
+        position: absolute;
+        left: 15vw;
+    }
+
+    .head{
+        top: 45vh;
+    }
+    .description{
+        top: 53vh;
+    }
+}

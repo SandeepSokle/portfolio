@@ -7,10 +7,20 @@
 
   .profileImg {
     img {
-      height: 15rem;
-      width: 15rem;
+      height: 12rem;
+      width: 12rem;
       border-radius: 50%;
+      cursor: pointer;
+      viewport-fit: center;
     }
+    img:hover{
+      padding: 10px;
+      box-shadow: 40px 0px 40px 0px rgba(255, 0, 0, 0.453);
+    }
+  }
+  
+  .profileImg:hover{
+    
   }
 
   .socialLinkes {
@@ -22,6 +32,7 @@
     .mediaLink {
       margin-right: 1rem;
       cursor: pointer;
+     
 
       img {
         // border: 2px solid black;
@@ -29,7 +40,11 @@
         width: 2.3rem;
         border-radius: 50%;
       }
+      img:hover{
+        padding: 6px;
+      }
     }
+
   }
 
   .navList {

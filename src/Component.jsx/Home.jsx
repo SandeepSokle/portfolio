@@ -4,6 +4,7 @@ import { Header } from "../ComponentHelper/HomeHelper/Header"
 import { Portfolio } from "../ComponentHelper/HomeHelper/Portfolio"
 import { Resume } from "../ComponentHelper/HomeHelper/Resume"
 import { Skill } from "../ComponentHelper/HomeHelper/Skill"
+import "../SCSS/HomeHelper/Home.scss"
 
 export const Home = ()=>{
     return <div className="homeContainer">

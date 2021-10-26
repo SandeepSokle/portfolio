@@ -1,3 +1,10 @@
+
+
+import "../../SCSS/HomeHelper/Header.scss"
+
 export const Header = ()=>{
-    return <h1>Header</h1>
+    return <div className="headerContainer">
+        <h1 className="head">Sandeep Kumar</h1>
+        <p className = "description">I am Developer</p>
+    </div>
 }
