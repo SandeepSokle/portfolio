@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="appContainer row">
-        <div className="col-3 bg-secondary leftNavContainer">
+        <div className="col-3 leftNavContainer">
           <LeftNav />
         </div>
         <div className="col-9">

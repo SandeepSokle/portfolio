@@ -6,15 +6,17 @@
 
     .head,.description{
         position: absolute;
-        left: 13vw;
+        left: 8vw;
+        font-size: 4rem;
+        font-weight: bold;
     }
 
     .head{
-        top: 45vh;
+        top: 35vh;
     }
     .description{
-        top: 53.6vh;
-        width: 32vw;
+        top: 45vh;
+        width: 37vw;
         font-size: 20px;
         font-weight:450;
         padding: 1vw;

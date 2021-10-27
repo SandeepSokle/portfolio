@@ -6,16 +6,20 @@
   align-items: center;
 
   .profileImg {
-    min-height: 12rem!important;
-    min-width: 12rem!important;
+    min-height: 9rem;
+    min-width: 9rem;
+    max-width: 9rem;
+    max-height: 9rem;
     display: flex;
     align-items: center;
     justify-content: center;
     img {
+      background-color: #34495e;
+      border-radius: 50%;
       height: 100%;
       width: 100%;
-      border-radius: 50%;
       cursor: pointer;
+      padding: 6px;
       viewport-fit: center;
     }
     img:hover{
@@ -41,12 +45,12 @@
 
       img {
         // border: 2px solid black;
-        height: 2.3rem;
-        width: 2.3rem;
+        height: 2rem;
+        width: 2rem;
         border-radius: 50%;
       }
       img:hover{
-        padding: 6px;
+        padding: 3px;
       }
     }
 
@@ -58,8 +62,10 @@
     padding: 0;
     .navTab {
       margin: 6px;
+      margin-bottom: 1rem;
       list-style: none;
-      padding: 4px;
+      padding: 5px;
+      padding-left: 14px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -67,16 +73,22 @@
     }
 
     .navTab:hover {
-      background-color: antiquewhite;
+      background-color: #7f8c8d;
     }
   }
-  .copyRightContant {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    span {
-      font-size: 3rem;
+
+  .copyRights{
+    width: 100%;
+    .copyRightContant {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-left: 1rem;
+      width: 17rem;
+      span {
+        font-size: 3rem;
+      }
     }
   }
 }

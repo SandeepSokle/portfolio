@@ -53,8 +53,8 @@ export const LeftNav = () => {
         </ul>
       </div>
       <div className="copyRights">
-        <p className = "copyRightContant">
-          <span className="material-icons">copyright</span> 2021. All Rights
+        <p className = "copyRightContant mt-3">
+          <span className="material-icons me-2">copyright</span> 2021. All Rights
           Reserved By Sandeep Sokle
         </p>
       </div>
