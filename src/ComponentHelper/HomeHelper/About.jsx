@@ -1,7 +1,6 @@
 import "../../SCSS/HomeHelper/About.scss";
 import Image from "../../Image/Home/ProfileImg.jpg";
 import infoImg from "../../Image/Home/aboutImage.jpg";
-import { Link } from "react-router-dom";
 import moment from "moment";
 export const About = () => {
   return (

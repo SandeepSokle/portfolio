@@ -1,0 +1,17 @@
+.skillContainer {
+  background-color: #ecf0f19c;
+  padding: 10px;
+  min-height: 53vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .aboutUnderline {
+    height: 2px;
+    width: 7rem;
+    margin-bottom: 10px;
+    border: 2px dashed #2980b9;
+  }
+}
+.progress-bar {
+  width: 35%;
+}
