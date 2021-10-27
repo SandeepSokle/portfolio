@@ -17,13 +17,13 @@ export const LeftNav = () => {
       </div>
       <div className="socialLinkes mb-4">
         <div className="mediaLink">
-          <img src={linkedin} class="img-fluid" alt="Profile" />
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
         </div>
         <div className="mediaLink">
-          <img src={google} class="img-fluid" alt="Profile" />
+        <i class="fa fa-google-plus-square" aria-hidden="true"></i>
         </div>
         <div className="mediaLink">
-          <img src={twitter} class="img-fluid" alt="Profile" />
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
         </div>
         <div className="mediaLink">
           <img src={leetcode} class="img-fluid" alt="Profile" />

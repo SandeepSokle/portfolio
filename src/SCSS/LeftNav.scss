@@ -5,6 +5,11 @@
   flex-direction: column;
   align-items: center;
 
+
+  .profileName{
+  color: #bb624c;
+    
+  }
   .profileImg {
     min-height: 9rem;
     min-width: 9rem;
@@ -41,16 +46,21 @@
     .mediaLink {
       margin-right: 1rem;
       cursor: pointer;
-     
+      
 
-      img {
+      img,.fa {
         // border: 2px solid black;
         height: 2rem;
         width: 2rem;
-        border-radius: 50%;
+        font-size: 30px;
+  color: #6c5ce7;
+
+        // border-radius: 50%;
       }
-      img:hover{
-        padding: 3px;
+      img:hover, .fa:hover{
+        padding: 6px;
+        font-size: 25px;
+        color: red;
       }
     }
 
