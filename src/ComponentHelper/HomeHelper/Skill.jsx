@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "../../SCSS/HomeHelper/Skill.scss";
+import { Progressbar } from "./Progressbar";
 
 export const Skill = () => {
+
   return (
     <div className="skillContainer">
       <div className="aboutHead">
@@ -21,91 +24,10 @@ export const Skill = () => {
         corrupti officiis quibusdam vel exercitationem pariatur repellat quia
         beatae, maxime natus consequatur enim.
       </div>
-      <div className="skillReview">
-        <div className="skillProgress">
-          <div className="skillLable">HTML</div>
-          <div class="progress">
-            <div class="progress">
-              <div
-                class="progress-bar bg-info  "
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
-        <div className="skillProgress">
-          <div className="skillLable">HTML</div>
-          <div class="progress">
-            <div class="progress">
-              <div
-                class="progress-bar bg-info"
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
-        <div className="skillProgress">
-          <div className="skillLable">HTML</div>
-          <div class="progress">
-            <div class="progress">
-              <div
-                class="progress-bar bg-info "
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
-        <div className="skillProgress">
-          <div className="skillLable">HTML</div>
-          <div class="progress">
-            <div class="progress">
-              <div
-                class="progress-bar bg-info "
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
-        <div className="skillProgress">
-          <div className="skillLable">HTML</div>
-          <div class="progress">
-            <div class="progress">
-              <div
-                class="progress-bar bg-info "
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
-        <div className="skillProgress">
-          <div className="skillLable">HTML</div>
-          <div class="progress">
-            <div class="progress">
-              <div
-                class="progress-bar bg-info "
-                role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-          </div>
-        </div>
+
+
+      <div className="skillReview col-6">
+       <Progressbar/>
       </div>
     </div>
   );
