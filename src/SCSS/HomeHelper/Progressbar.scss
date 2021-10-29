@@ -1,0 +1,35 @@
+
+
+.progressContainer{
+    height: 2rem;
+    width: 40vw;
+    border : 2px solid black;
+    display: flex;
+    align-items: center;
+position: relative;
+    .progressbar{position: absolute;
+        left: 2rem;
+        height: 100%;
+       
+        background-color: blue;
+        
+    }
+    .frontCurve, .endCurve{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width : 2rem;
+        display: none;
+        background-color: red;
+    }
+    
+    .frontCurve{
+        left: 0;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+
+    .endCurve{
+        right: 0;
+    }
+}
