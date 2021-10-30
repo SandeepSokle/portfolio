@@ -2,47 +2,36 @@ import "../../SCSS/HomeHelper/Progressbar.scss";
 import { useState, useEffect } from "react";
 
 export const Progressbar = () => {
+  let [htmlVal, setHtml] = useState(75);
   let [progress, setProgress] = useState(0);
 
-useEffect(() => {
-    console.log("rendered");
-    if(progress === 10){
-       let ele = document.querySelector(".frontCurve");
-       ele.style.display = "block";
-       ele.style.width = "2rem";
-    }
-    else if(progress>10) {
-        let ele = document.querySelector(".frontCurve");
-        ele.style.display = "block";
-        ele.style.width = "2rem";
-        let p = document.querySelector(".progressbar");
-        p.style.display="block";
-        p.style.width = `${progress}%`;
-    }
-    
-}, [progress]);
-useEffect(()=>{
+  useEffect(() => {
     console.log(progress);
-   let id = setInterval(()=> {
-        let p = progress;
-        setProgress((p+1)%100);
-    },1000)
-    return ()=>{
-        clearInterval(id);
+    if (progress < htmlVal) {
+      let id = setTimeout(() => {
+        setProgress((progress + 1) % 100);
+      }, 40);
     }
-});
-  // setInterval(() => {
-  //   setProgress((progress + 1) % 100);
-  // }, 200);
+  });
+
   const progressStyle = {
     width: `${progress}%`,
   };
 
+  const showPercentStyle = {
+    // right: `${progress < 10 ? "-10px" : "8px"}`,
+    // color: `${progress < 10 ? "black" : "white"}`
+  };
+
+  console.log();
+
   return (
     <div className="progressContainer">
-      <div className="frontCurve"></div>
-      <div className="progressbar" ></div>
-      <div className="endCurve"></div>
+      <div className="progressbar" style={progressStyle}>
+        <div className="showPercent" style={showPercentStyle}>
+          {progress}%
+        </div>
+      </div>
     </div>
   );
 };
